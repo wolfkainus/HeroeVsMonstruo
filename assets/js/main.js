@@ -55,21 +55,21 @@ Heroe.prototype.ataque = function(enemigo){
 };
 
 //ARSENAL//
+//Posion de curacion//
 Heroe.prototype.posion = function(){
 	heroe.vida = heroe.vida + 100;
 	alert('Tomaste una Posión!!, tus puntos de vida ahora son ' + heroe.vida );
 }
 
-function Escudo() {
-	heroe.vida = heroe.vida + 100;
-}
-
+//ARMERIA//
+//Espada +50 al ataque//
 function Espada() {
 	heroe.ataque = heroe.ataque + 50;
 	alert('El Heroe ' + heroe.nombre +' se ha equipado con Espada / ' + 'Ataque ' + heroe.ataque);
 	alert('Ya Puedes Combatir!!');
 }
 
+//Martillo +100 al ataque//
 function Martillo() {
 	heroe.ataque = heroe.ataque + 100;
 	alert('El Heroe ' + heroe.nombre +' se ha equipado con Martillo / ' + 'Ataque '+ heroe.ataque);
