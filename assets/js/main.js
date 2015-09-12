@@ -19,7 +19,7 @@ var Heroe = function(nombre, vida, ataque, experiencia, raza, nivel){
 	this.nivel = nivel;
 }
 
-var heroe = new Heroe('Alf MacThrorin ', 300, 0, 0, 'Enano Barbon', 1)
+var heroe = new Heroe('Alf MacThrorin ', 300, 10, 0, 'Enano Barbon', 1)
 	alert('Tu Heroe ' + '"' + heroe.nombre + '"'  + ' a llegado!!');
 	alert(heroe.nombre + ': ' + 'el ' + heroe.raza + ' / Puntos de Vida: ' + heroe.vida + ' / Ataque: ' + heroe.ataque + ' / Nivel: ' + heroe.nivel + ' / Exp: ' + heroe.experiencia)
 	alert('Elige un arma...')
@@ -63,14 +63,14 @@ Heroe.prototype.posion = function(){
 
 //ARMERIA//
 //Espada +50 al ataque//
-function Espada() {
+function espada() {
 	heroe.ataque = heroe.ataque + 50;
 	alert('El Heroe ' + heroe.nombre +' se ha equipado con Espada / ' + 'Ataque ' + heroe.ataque);
 	alert('Ya Puedes Combatir!!');
 }
 
 //Martillo +100 al ataque//
-function Martillo() {
+function martillo() {
 	heroe.ataque = heroe.ataque + 100;
 	alert('El Heroe ' + heroe.nombre +' se ha equipado con Martillo / ' + 'Ataque '+ heroe.ataque);
 	alert('Ya Puedes Combatir!!');
