@@ -3,10 +3,11 @@ body {
 	width: 100%;
 	text-align: center;
 	padding-top:20px;
+	background-color: lightgrey;
 }
 
 .main {
-	background-color: lightgrey;
+	background-color: white;
 	width: 50%;
 	margin:auto;
 	padding:20px 20px 40px 20px;
@@ -28,4 +29,38 @@ h1 {
 h2 {
 	color:orange;
 	font-size: 20px;
+}
+
+.clear {
+	border-bottom: 1px solid lightgrey;
+	padding:15px 0 15px 0;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+.armas {
+	margin:0 30px 0 0;
+}
+
+input {
+	padding:5px 10px;
+	background-color: orange;
+	border:2px solid white;
+}
+
+.icono {
+	width: 35px;
+	height: 35px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.personajes {
+	width: 50px;
+	height: 55px;
+	vertical-align: middle;
+	margin-right: 5px;
 }

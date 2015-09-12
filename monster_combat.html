@@ -14,32 +14,53 @@
 		<h1 class="heroe">Guía a tu Heroe atravez de esta Aventura...</h1>
 
 		<h2>Elige tu Arma</h2>
+		<ul>
+			<li class="armas">
+				<img class="icono" src="images/sword.png" height="50" width="50" alt="Espada">
+				<input type="button" 
+				onclick="espada()" 
+				value="Espada">
+			</li>
+			<li class="armas">
+				<img class="icono" src="images/hammer.png" height="50" width="50" alt="Martillo">
+				<input type="button" 
+				onclick="martillo()" 
+				value="Martillo">
+			</li>
+		</ul>
+		
+		<div class="clear"></div>
 
-		<input type="button" 
-			onclick="espada()" 
-			value="Espada">
-
-		<input type="button" 
-			onclick="martillo()" 
-			value="Martillo">
-
-		<h2>Si lo necesitas, puedes ocupar un Item..</h2>
-		<input type="button" 
-			onclick="Heroe.prototype.posion(heroe)" 
-			value="Posion de Curación">
+		<div class="item">
+			<h2>Si lo necesitas, puedes ocupar un Item..</h2>
+			<img class="icono" src="images/potion.png" height="56" width="50" alt="Posion de Curación">
+			<input type="button" 
+				onclick="Heroe.prototype.posion(heroe)" 
+				value="Posion de Curación">
+		</div>
+		
+		<div class="clear"></div>
 
 		<h2>Hora de Combatir..</h2>
 
-		<input type="button" 
-			onclick="Heroe.prototype.ataque(enemigo)" 
-			value="Ataque del Heroe!!">
+		<ul>
+			<li class="armas">
+				<img class="personajes" src="images/heroe.png" alt="Heroe">
+				<input type="button" 
+				onclick="Heroe.prototype.ataque(enemigo)" 
+				value="Ataque del Heroe!!">
+			</li>
+			<li class="armas">
+				<img class="personajes" src="images/monster.png" alt="monstruo">
+				<input type="button" 
+				onclick="Monstruo.prototype.ataque(heroe)" 
+				value="Ataque del Enemigo!!">
+			</li>
+		</ul>
 
-		<input type="button" 
-			onclick="Monstruo.prototype.ataque(heroe)" 
-			value="Ataque del Enemigo!!">
 	</div>
 	
-	<!--JS-->
-	<script src='assets/js/main.js'></script>
+	<!--JS
+	<script src='assets/js/main.js'></script>-->
 </body>
 </html>
