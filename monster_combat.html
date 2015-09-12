@@ -11,8 +11,11 @@
 		<div class="header">
 			<img src="images/header.jpg" width="100%" alt="Imagen de combate fantastico entre un puñado de heroes versus Monstruos">
 		</div>
-		<h1 class="heroe">Guía a tu Heroe atravez de esta Aventura...</h1>
 
+		<!--INTRODUCCION-->
+		<h1 class="heroe">Guía a tu Heroe atravez de esta Aventura...</h1>
+		
+		<!--ARMAMENTO-->
 		<h2>Elige tu Arma</h2>
 		<ul>
 			<li class="armas">
@@ -29,20 +32,11 @@
 			</li>
 		</ul>
 		
+		<!--LINEA DIVISION-->
 		<div class="clear"></div>
-
-		<div class="item">
-			<h2>Si lo necesitas, puedes ocupar un Item..</h2>
-			<img class="icono" src="images/potion.png" height="56" width="50" alt="Posion de Curación">
-			<input type="button" 
-				onclick="Heroe.prototype.posion(heroe)" 
-				value="Posion de Curación">
-		</div>
 		
-		<div class="clear"></div>
-
+		<!--COMBATIR-->
 		<h2>Hora de Combatir..</h2>
-
 		<ul>
 			<li class="armas">
 				<img class="personajes" src="images/heroe.png" alt="Heroe">
@@ -57,10 +51,21 @@
 				value="Ataque del Enemigo!!">
 			</li>
 		</ul>
+		
+		<!--LINEA DIVISION-->
+		<div class="clear"></div>
 
+		<!--ITEM-->
+		<div class="item">
+			<h2>Si lo necesitas, puedes ocupar un Item..</h2>
+			<img class="icono" src="images/potion.png" height="56" width="50" alt="Posion de Curación">
+			<input type="button" 
+				onclick="Heroe.prototype.posion(heroe)" 
+				value="Posion de Curación">
+		</div>
 	</div>
 	
-	<!--JS
-	<script src='assets/js/main.js'></script>-->
+	<!--JS-->
+	<script src='assets/js/main.js'></script>
 </body>
 </html>
