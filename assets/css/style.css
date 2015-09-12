@@ -1,0 +1,31 @@
+body {
+	font-family: Arial;
+	width: 100%;
+	text-align: center;
+	padding-top:20px;
+}
+
+.main {
+	background-color: lightgrey;
+	width: 50%;
+	margin:auto;
+	padding:20px 20px 40px 20px;
+	border:1px solid grey;
+}
+
+.header img {
+	width: 100%;
+	margin:auto;
+}
+
+h1 {
+	color:white;
+	font-size: 25px;
+	background-color: orange;
+	padding:20px;
+}
+
+h2 {
+	color:orange;
+	font-size: 20px;
+}

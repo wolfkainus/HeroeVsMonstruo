@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MONSTER COMBAT!!!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<img src="images/header.jpg" width="100%" alt="">
+		</div>
+		<h1 class="heroe">Guía a tu Heroe atravez de esta Aventura...</h1>
+
+		<h2>Elige tu Arma</h2>
+
+		<input type="button" 
+			onclick="Espada()" 
+			value="Espada">
+
+		<input type="button" 
+			onclick="Martillo()" 
+			value="Martillo">
+
+		<h2>Si lo necesitas, puedes ocupar un Item..</h2>
+		<input type="button" 
+			onclick="Heroe.prototype.posion(heroe)" 
+			value="Posion de Curación">
+
+		<h2>Hora de Combatir..</h2>
+
+		<input type="button" 
+			onclick="Heroe.prototype.ataque(enemigo)" 
+			value="Ataque del Heroe!!">
+
+		<input type="button" 
+			onclick="Monstruo.prototype.ataque(heroe)" 
+			value="Ataque del Enemigo!!">
+	</div>
+	
+	<!--JS-->
+	<script src='assets/js/main.js'></script>
+</body>
+</html>
